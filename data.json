@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "A Random Quote Generator",
+      "description": "Prints a random quote to the screen.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/brian-jensen/a-random-quote-generator",
+      "image_url": ["quote_sm.png", "quote_lg.png"]
+    },
+    {
+      "id": 1,
+      "project_name": "List Pagination and Filtering",
+      "description": "Use pagination to display only 10 students per page.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/brian-jensen/list-pagination-and-filtering",
+      "image_url": ["page_sm.png", "page_lg.png"]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "Registration form with jQuery based form validation",
+      "technologies": ["HTML", "CSS", "jQuery"],
+      "live_link": "",
+      "github_link": "https://github.com/brian-jensen/interactive-form",
+      "image_url": ["form_sm.png", "form_lg.png"]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game Show App",
+      "description": "A phrase guessing game.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/brian-jensen/oop-game-show-app",
+      "image_url": ["game_sm.png", "game_lg.png"]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "A random employee directory using the randomuser.me API",
+      "technologies": ["HTML", "CSS", "JavaScript", "API"],
+      "live_link": "",
+      "github_link": "https://github.com/brian-jensen/interactive-form",
+      "image_url": ["api_sm.png", "api_lg.png"]
+    }
+  ]
+}
