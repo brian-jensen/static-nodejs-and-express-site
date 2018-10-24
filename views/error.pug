@@ -2,6 +2,8 @@ extends layout
 
 block content
   h1.error= `${error.status} - ${error.message}`
-  nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+  header
+    pre= `${error.stack}`
+    nav.grid-container.portfolio-breadcrumb
+      a(href='/') ← Back
     

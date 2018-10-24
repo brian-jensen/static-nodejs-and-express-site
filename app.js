@@ -12,7 +12,7 @@ app.use(mainRoutes);
 app.use('/project', projectRoutes);
 
 app.use((req, res, next) => {
-  const err = new Error('Page Not found');
+  const err = new Error('Page Not Found');
   err.status = 404;
   next(err);
 });

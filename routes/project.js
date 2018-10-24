@@ -1,4 +1,5 @@
 const express = require('express');
+const app = express();
 const router = express.Router();
 const data = require('../data.json'); 
 const {projects} = data;
@@ -22,7 +23,7 @@ router.get('/:id', (req, res) => {
       technologies: projects[`${id}`].technologies
     });
   } else {
-    res.redirect(`/project/0`);
+    res.redirect(`/`);
   }
   
 });
