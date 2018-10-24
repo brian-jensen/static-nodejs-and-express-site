@@ -7,7 +7,7 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "",
       "github_link": "https://github.com/brian-jensen/a-random-quote-generator",
-      "image_url": ["quote_sm.png", "quote_lg.png"]
+      "image_url": ["/static/images/quote_sm.png", "/static/images/quote_lg.png", "/static/images/quote_code.png"]
     },
     {
       "id": 1,
@@ -16,7 +16,7 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "",
       "github_link": "https://github.com/brian-jensen/list-pagination-and-filtering",
-      "image_url": ["page_sm.png", "page_lg.png"]
+      "image_url": ["/static/images/page_sm.png", "/static/images/page_lg.png", "/static/images/page_code.png"]
     },
     {
       "id": 2,
@@ -25,7 +25,7 @@
       "technologies": ["HTML", "CSS", "jQuery"],
       "live_link": "",
       "github_link": "https://github.com/brian-jensen/interactive-form",
-      "image_url": ["form_sm.png", "form_lg.png"]
+      "image_url": ["/static/images/form_sm.png", "/static/images/form_lg.png", "/static/images/form_code.png"]
     },
     {
       "id": 3,
@@ -34,16 +34,16 @@
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "",
       "github_link": "https://github.com/brian-jensen/oop-game-show-app",
-      "image_url": ["game_sm.png", "game_lg.png"]
+      "image_url": ["/static/images/game_sm.png", "/static/images/game_lg.png", "/static/images/game_code.png"]
     },
     {
       "id": 4,
       "project_name": "Public API Requests",
       "description": "A random employee directory using the randomuser.me API",
-      "technologies": ["HTML", "CSS", "JavaScript", "API"],
+      "technologies": ["HTML", "CSS", "JavaScript", "API Fetch"],
       "live_link": "",
       "github_link": "https://github.com/brian-jensen/interactive-form",
-      "image_url": ["api_sm.png", "api_lg.png"]
+      "image_url": ["/static/images/directory_sm.png", "/static/images/directory_lg.png", "/static/images/directory_code.png"]
     }
   ]
 }
