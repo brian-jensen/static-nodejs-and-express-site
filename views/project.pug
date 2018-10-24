@@ -14,9 +14,11 @@ block content
         ul
           each technology in technologies
             li= technology
-
-        //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href='') Live Demo
+        a.button.expanded(target="_blank" href=`${live}`) Live Demo
         a.button.expanded(target="_blank" href=`${gitHub}`) GitHub Repo
-    img.image(src=`${imgOne}`)
-    img.image(src=`${imgTwo}`)
+        br
+    a(target="_blank" href=`${live}`)
+      img.image(src=`${imgOne}`)
+      br
+    a(target="_blank" href=`${gitHub}`)  
+      img.image(src=`${imgTwo}`)

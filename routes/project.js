@@ -19,6 +19,7 @@ router.get('/:id', (req, res) => {
       description: projects[`${id}`].description,
       imgOne: projects[`${id}`].image_url[1],
       imgTwo: projects[`${id}`].image_url[2],
+      live: projects[`${id}`].live_link,
       gitHub: projects[`${id}`].github_link,
       technologies: projects[`${id}`].technologies
     });

@@ -5,7 +5,7 @@
       "project_name": "A Random Quote Generator",
       "description": "Prints a random quote to the screen.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://brian-jensen.github.io/a-random-quote-generator/",
       "github_link": "https://github.com/brian-jensen/a-random-quote-generator",
       "image_url": ["/static/images/quote_sm.png", "/static/images/quote_lg.png", "/static/images/quote_code.png"]
     },
@@ -14,7 +14,7 @@
       "project_name": "List Pagination and Filtering",
       "description": "Use pagination to display only 10 students per page.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://brian-jensen.github.io/list-pagination-and-filtering/",
       "github_link": "https://github.com/brian-jensen/list-pagination-and-filtering",
       "image_url": ["/static/images/page_sm.png", "/static/images/page_lg.png", "/static/images/page_code.png"]
     },
@@ -23,7 +23,7 @@
       "project_name": "Interactive Form",
       "description": "Registration form with jQuery based form validation",
       "technologies": ["HTML", "CSS", "jQuery"],
-      "live_link": "",
+      "live_link": "https://brian-jensen.github.io/interactive-form/",
       "github_link": "https://github.com/brian-jensen/interactive-form",
       "image_url": ["/static/images/form_sm.png", "/static/images/form_lg.png", "/static/images/form_code.png"]
     },
@@ -32,7 +32,7 @@
       "project_name": "OOP Game Show App",
       "description": "A phrase guessing game.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "",
+      "live_link": "https://brian-jensen.github.io/oop-game-show-app/",
       "github_link": "https://github.com/brian-jensen/oop-game-show-app",
       "image_url": ["/static/images/game_sm.png", "/static/images/game_lg.png", "/static/images/game_code.png"]
     },
@@ -41,8 +41,8 @@
       "project_name": "Public API Requests",
       "description": "A random employee directory using the randomuser.me API",
       "technologies": ["HTML", "CSS", "JavaScript", "API Fetch"],
-      "live_link": "",
-      "github_link": "https://github.com/brian-jensen/interactive-form",
+      "live_link": "https://brian-jensen.github.io/public-api-requests/",
+      "github_link": "https://github.com/brian-jensen/public-api-requests",
       "image_url": ["/static/images/directory_sm.png", "/static/images/directory_lg.png", "/static/images/directory_code.png"]
     }
   ]
