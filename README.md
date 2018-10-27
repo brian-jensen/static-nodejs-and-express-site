@@ -5,6 +5,7 @@ Brian Jensen's Static Node.js and Express Site
 ---
 
 ### Additional Styles
+* Lines `165` to `338` in style.css
 * Color changes on main heading elements and list items across the pages
 * Background images added to my-info column and body
 * box-shadow transition added to hover on portfolio project cards
