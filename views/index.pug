@@ -5,11 +5,11 @@ block content
     div
       h1 My Portfolio
       p.lead.text-light
-        | Treehouse Full-Stack JavaScript Techdegree Projects
+        | Treehouse Full-Stack JavaScript Techdegree Projects.
   article.grid-container.portfolio-index
-    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+    .grid-x.grid-margin-x.small-up-1.medium-up-2.large-up-3
       each project in projects
-        .cell
+        .cell.proj
           a(href=`/project/${project.id}`)
             img.thumbnail(src=`${project.image_url[0]}`)
-            h5 #{project.project_name}
+            h5(class="project-title") #{project.project_name}

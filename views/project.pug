@@ -5,13 +5,13 @@ block content
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
-      .cell.small-6.medium-9.large-9
+      .cell.small-12.medium-9.large-9
         h1 #{projectName}
         p.lead.text-light
           | #{description}
-      .cell.portfolio-meta.small-6.medium-2.large-3
+      .cell.portfolio-meta.small-6.medium-3.large-3
         h6 Technologies
-        ul
+        ul.tech
           each technology in technologies
             li= technology
         a.button.expanded(target="_blank" href=`${live}`) Live Demo

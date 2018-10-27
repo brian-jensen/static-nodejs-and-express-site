@@ -5,7 +5,7 @@ block content
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
-      .cell.small-6.medium-9.large-9
+      .cell.small-12.medium-9.large-9
         h1 Brian Jensen
         p.lead.text-light
           | Full Stack Web Developer.
@@ -13,9 +13,9 @@ block content
           p
             | Treehouse Front-End Web Development Techdegree graduate and moderator.
             | Currently a Treehouse Full-Stack JavaScript Techdegree student.
-      .cell.portfolio-meta.small-6.medium-2.large-3
+      .cell.portfolio-meta.small-12.medium-2.large-3
         h6 Skills
-        ul
+        ul.skills
           li React
           li Express
           li Pug
@@ -25,9 +25,10 @@ block content
           li CSS
           li HTML
         h6 Contact Info
-        ul
-          li 520-975-3461
-          li jensenbrian@gmail.com
+        ul.contact
+          li.phone 520-975-3461
+          li.email
+            a(target="_blank" href="mailto:jensenbrian@gmail.com") jensenbrian@gmail.com
         a.button.expanded(target="_blank" href='https://www.linkedin.com/in/brian-jensen-b40a96132/') LinkedIn
         a.button.expanded(target="_blank" href='https://github.com/brian-jensen') GitHub
         a.button.expanded(target="_blank" href='https://twitter.com/Brian_Jensen_AZ') Twitter

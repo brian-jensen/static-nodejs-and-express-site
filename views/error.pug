@@ -2,8 +2,9 @@ extends layout
 
 block content
   h1.error= `${error.status} - ${error.message}`
+  button.button.btn-stack View Full Error Stack
   header
-    pre= `${error.stack}`
+    pre.error-stack= `${error.stack}`
     nav.grid-container.portfolio-breadcrumb
       a(href='/') ← Back
     

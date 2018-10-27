@@ -1,52 +1,61 @@
+body {
+  background: url("/static/images/fabric_of_squares_gray.png");
+  color: #104966;
+}
 
-h1,h2,h3,h4,h5,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   font-family: 'Merriweather', serif;
 }
 
-  h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
-
-  h6{
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-
-  p{
-    font-size: 15px;
-    color: #666;
-  }
-
-.round{
-  border-radius: 5px;
+h5 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.text-light{
+h6 {
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
   color: #666;
 }
 
-.button{
+.round {
+  border-radius: 5px;
+}
+
+.text-light {
+  color: #666;
+}
+
+.button {
   background-color: #333;
 }
 
-.button:hover{
+.button:hover {
   background-color: #111;
 }
 
-a{
+a {
   color: #333;
 }
 
-a:hover{
+a:hover {
   color: #111;
 }
 
-.image{
+.image {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
@@ -56,100 +65,274 @@ a:hover{
   line-height: 0;
 }
 
-.portfolio-me{
+.portfolio-me {
   padding: 20px;
   background: #121213;
   color: #fff;
   box-shadow: none !important;
 }
 
-  .portfolio-me p{
-    font-size: 14px;
-    color: #999;
-  }
+.portfolio-me p {
+  font-size: 14px;
+  color: #999;
+}
 
-  .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    color: #555;
-    font-size: 13px;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
+.portfolio-me a {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #555;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
 
-  .portfolio-me a:hover{
-    color: #999;
-  }
+.portfolio-me a:hover {
+  color: #999;
+}
 
-.portfolio-breadcrumb{
+.portfolio-breadcrumb {
   margin: 0;
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
 }
 
- .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   font-weight: 600;
-   font-size: 13px;
-   letter-spacing: 2.5px;
-   -webkit-text-transform: uppercase;
-   text-transform: uppercase;
- }
+.portfolio-breadcrumb a {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
 
-.portfolio-intro{
+.portfolio-intro {
   margin: 0;
   padding: 40px 50px 30px;
 }
 
-.portfolio-intro p{
+.portfolio-intro p {
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
 }
 
-.portfolio-index{
+.portfolio-index {
   margin: 0;
   padding: 10px 50px;
 }
 
-  .portfolio-index .thumbnail{
-    margin-bottom: 5px;
-  }
+.portfolio-index .thumbnail {
+  box-shadow: none;
+  margin-bottom: 5px;
+}
 
-  .portfolio-index a{
-    color: #222;
-  }
+.portfolio-index a {
+  color: #222;
+}
 
-  .portfolio-index .cell{
-    margin-bottom: 15px;
-  }
+.portfolio-index .cell {
+  margin-bottom: 15px;
+}
 
-    .portfolio-index .cell h5{
-      letter-spacing: 1px;
-    }
+.portfolio-index .cell h5 {
+  letter-spacing: 1px;
+}
 
-.portfolio-meta{
+.portfolio-meta {
   padding-left: 20px;
 }
 
-  .portfolio-meta .button{
-    margin-bottom: 5px;
-  }
+.portfolio-meta .button {
+  margin-bottom: 5px;
+}
 
-.portfolio-project p{
+.portfolio-project p {
   border: none;
 }
 
-.portfolio-project li{
+.portfolio-project li {
   font-size: 13px;
   color: #444;
 }
 
-.portfolio-bio{
-    line-height: 25px;
+.portfolio-bio {
+  line-height: 25px;
 }
 
-pre {
+
+/*******************************/
+/* CUSTOM STYLES               */
+/*******************************/
+
+.portfolio-intro.portfolio-project,
+.portfolio-index,
+.portfolio-intro {
+  padding: 25px 25px 0 25px;
+}
+
+.portfolio-intro.portfolio-project h1 {
+  font-size: 1.5rem;
+}
+
+.lead.text-light {
+  font-size: 12px;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 12px;
+  color: #0b4b6b;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, .5);
+}
+
+.portfolio-meta {
+  margin-top: 15px;
+  padding-left: 0;
+  color: #0b4b6b;
+}
+
+.portfolio-index .thumbnail:hover {
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  box-shadow: 0px 0px 20px 0px rgba(102, 102, 102, 0.7);
+  transition: box-shadow .3s;
+}
+
+.portfolio-bio {
+  padding-right: 25px;
+}
+
+.portfolio-bio p {
+  padding-bottom: 14px;
+}
+
+.cell h1 {
+  color: #104966;
+}
+
+.skills,
+.tech {
+  margin-bottom: 25px;
+}
+
+.contact {
+  margin-bottom: 50px;
+}
+
+ul {
+  margin-left: 10px;
+  padding: 0;
+}
+
+.skills li,
+.contact li,
+.contact li a,
+.tech li {
+  list-style: none;
+  color: #0f648f;
+}
+
+.skills li::before,
+.tech li::before {
+  padding-right: 7px;
+  content: "\2605";
+}
+
+.phone::before {
+  padding-right: 7px;
+  content: "\260E";
+}
+
+.email {
+  word-break: break-all;
+}
+
+.email::before {
+  padding-right: 5px;
+  content: "\261B";
+  font-size: 18px;
+}
+
+#my-info {
+  background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url("/static/images/classy_fabric.png");
+}
+
+#my-info p {
+  color: #ddd;
+}
+
+#my-info a {
+  color: #bcbcbc;
+}
+
+.error,
+.error-stack,
+.btn-stack {
+  margin: 25px 0 15px 50px;
+}
+
+
+.error-stack {
+  display: none;
   font-size: 10px;
   word-break: break-all;
+}
+
+@media (min-width: 425px) {
+  .portfolio-intro.portfolio-project,
+  .portfolio-index,
+  .portfolio-intro {
+    padding: 40px 75px 30px 75px;
+  }
+
+  .portfolio-intro.portfolio-project h1 {
+    font-size: 1.6rem;
+  }
+
+  .project-title {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio-intro.portfolio-project h1 {
+    font-size: 1.8rem;
+  }
+
+  .portfolio-intro.portfolio-project,
+  .portfolio-index,
+  .portfolio-intro {
+    padding: 40px 50px 30px 50px;
+  }
+
+  .lead.text-light {
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-bottom: 40px;
+  }
+
+  .project-title {
+    font-size: 16px;
+  }
+
+  .portfolio-bio p {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .project-title {
+    font-size: 0.8em;
+  }
+
+  .portfolio-intro.portfolio-project h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-title {
+    font-size: 1em;
+  }
 }

@@ -44,6 +44,15 @@
       "live_link": "https://brian-jensen.github.io/public-api-requests/",
       "github_link": "https://github.com/brian-jensen/public-api-requests",
       "image_url": ["/static/images/directory_sm.png", "/static/images/directory_lg.png", "/static/images/directory_code.png"]
+    },
+    {
+      "id": 5,
+      "project_name": "Web App Dashboard",
+      "description": "A Web App Dashboard, showing site traffic and social media statistics.",
+      "technologies": ["HTML", "CSS", "JavaScript", "localStorage"],
+      "live_link": "https://brian-jensen.github.io/projects/dashboard/",
+      "github_link": "https://github.com/brian-jensen/techdegree-project-9",
+      "image_url": ["/static/images/dashboard_sm.png", "/static/images/dashboard_lg.png", "/static/images/dashboard_code.png"]
     }
   ]
 }
