@@ -16,5 +16,4 @@ Brian Jensen's Static Node.js and Express Site
 ### How to serve this webpage
 
 1. Run - `npm install`
-2. Run - `npm start ` _or_ ` node app.js`
-3. View in browser at [http://localhost:3000/](http://localhost:3000/)
+2. Run - `npm start`

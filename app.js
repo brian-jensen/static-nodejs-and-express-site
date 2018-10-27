@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
+const opn = require('opn');
+const port = 3000;
 
 app.use('/static', express.static('public'));
-
 app.set('view engine', 'pug');
 
 const mainRoutes = require('./routes');
@@ -23,6 +24,8 @@ app.use((err, req, res, next) => {
   res.render('error', err);
 });
 
-app.listen(3000, () => {
-  console.log('The application is running on localhost:3000');
-}); 
+app.listen(port, () => {
+  console.log(`The application is running on localhost:${port}`);
+});
+
+opn(`http://localhost:${port}`);
